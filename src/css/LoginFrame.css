@@ -1,0 +1,74 @@
+.login-frame,
+.login-frame * {
+  box-sizing: border-box;
+}
+.login-frame {
+  width: 100%;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+  display: flex; /* add this property to make child elements aligned horizontally */
+  justify-content: center; /* add this property to center child elements horizontally */
+}
+.rectangle-1 {
+  background: #f0f0f0;
+  border-style: solid;
+  border-color: #c8c8c8;
+  border-width: 0px 0px 1px 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.btn {
+  color: #000000;
+  text-align: left;
+  font: 700 18px "NanumSquare Neo", sans-serif;
+  position: absolute;
+  right: 1%;
+  top: 2%;
+  display: flex; /* add this property to make child elements aligned horizontally */
+  align-items: center; /* add this property to center child elements vertically */
+}
+
+.wrap {
+  margin-left: 10px; /* add this property to add some space between the buttons */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 140px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+
+@media (max-width: 768px) {
+  .btn {
+    font-size: 14px;
+  }
+}
