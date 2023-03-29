@@ -1,3 +1,8 @@
+# 내용 설명
+
+> App.js에서 5번째, 6번째 줄은 한이음 화면과 캡디 화면을 나눠놓은 것입니다.
+> 필요한 화면에 따라, 필요 없는 화면은 주석처리 해주고 켜주시면 됩니다.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
