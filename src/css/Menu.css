@@ -18,9 +18,9 @@
   border-style: solid;
   border-color: #c8c8c8;
   border-width: 0px 1px 0px 0px;
-  width: 17%;
+  width: 230px;
   height: 100%;
-  position: absolute;
+  position: relative;
   overflow: hidden;
 }
 .name-rectangle {
@@ -51,19 +51,19 @@
 .YDM {
   color: #000000;
   text-align: center;
-  font: 700 16px "NanumSquare Neo", sans-serif;
+  font: 700 14px "NanumSquare Neo", sans-serif;
   position: relative;
-  top: 12%;
+  top: 16%;
 }
 
 .notice-rectangle {
   background: #0090ff;
   border-radius: 6px;
-  width: 52px;
-  height: 23px;
+  width: 20%;
+  height: 19%;
   position: absolute;
-  left: 14px;
-  top: 53px;
+  left: 5.5%;
+  top: 40%;
   box-shadow: inset 1px 4px 4px 0px rgba(255, 255, 255, 0.25);
 }
 .alarms {
@@ -74,38 +74,27 @@
   top: 10%;
 }
 
-.URAlarm {
+.URalarms {
   color: #000000;
   text-align: center;
   font: 700 15px "NanumSquare Neo", sans-serif;
   position: absolute;
-  left: 76px;
-  top: 56px;
+  left: 29.5%;
+  top: 41.7%;
+  display: inline-block;
 }
-.reportNums1 {
+.numscolor {
   color: #ff0000;
-  text-align: center;
-  font: 700 15px "NanumSquare Neo", sans-serif;
-  position: absolute;
-  left: 161px;
-  top: 56px;
-}
-.fix {
-  color: #000000;
-  text-align: left;
-  font: 700 15px "NanumSquare Neo", sans-serif;
-  position: absolute;
-  left: 182px;
-  top: 56px;
+  display: inline-block;
 }
 .notice-rectangle2 {
   background: #ff6666;
   border-radius: 6px;
-  width: 52px;
-  height: 23px;
+  width: 20%;
+  height: 19%;
   position: absolute;
-  left: 14px;
-  top: 88px;
+  left: 5.5%;
+  top: 70%;
   box-shadow: inset 1px 4px 4px 0px rgba(255, 255, 255, 0.25);
 }
 .report {
@@ -115,32 +104,48 @@
   position: relative;
   top: 10%;
 }
-.URReport {
+.URreport {
   color: #000000;
-  text-align: left;
-  font: 700 15px "NanumSquare Neo", sans-serif;
-  position: absolute;
-  left: 76px;
-  top: 91px;
-}
-.reportNums2 {
-  color: #ff0000;
   text-align: center;
   font: 700 15px "NanumSquare Neo", sans-serif;
   position: absolute;
-  left: 162px;
-  top: 91px;
-}
-.fix2 {
-  color: #000000;
-  text-align: left;
-  font: 700 15px "NanumSquare Neo", sans-serif;
-  position: absolute;
-  left: 182px;
-  top: 91px;
+  left: 29.5%;
+  top: 72%;
+  display: inline-block;
 }
 
+
 /* pageing */
+
+.SUList {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.category-top {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+.JInfo {
+  color: #000000;
+  text-align: center;
+  font: 700 24px "NanumSquare Neo", sans-serif;
+  position: absolute;
+  left: 67px;
+  top: 19px;
+}
+.IAMN {
+  color: #0090ff;
+  text-align: center;
+  font: 700 24px "NanumSquare Neo", sans-serif;
+  position: absolute;
+  left: 270px;
+  top: 19px;
+}
 
 .category-bottom {
   width: 690px;
@@ -174,34 +179,4 @@
   left: 500px;
   top: 19px;
 }
-.category-top {
-  width: 690px;
-  height: 64px;
-  position: absolute;
-  left: 270px;
-  top: 0px;
-  overflow: hidden;
-}
-.JInfo {
-  color: #000000;
-  text-align: center;
-  font: 700 24px "NanumSquare Neo", sans-serif;
-  position: absolute;
-  left: 67px;
-  top: 19px;
-}
-.IAMN {
-  color: #0090ff;
-  text-align: center;
-  font: 700 24px "NanumSquare Neo", sans-serif;
-  position: absolute;
-  left: 270px;
-  top: 19px;
-}
 
-.line-1 {
-  position: absolute;
-  left: 278px;
-  top: 63.5px;
-  overflow: visible;
-}
