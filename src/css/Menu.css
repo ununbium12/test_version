@@ -6,119 +6,56 @@
   border-style: solid;
   border-color: #c8c8c8;
   border-width: 0px 0px 1px 0px;
-  width: 960px;
-  height: 128px;
-  position: relative;
+  width: 100%;
+  height: 18%;
+  position: absolute;
   overflow: hidden;
 }
-.category-bottom {
-  width: 690px;
-  height: 64px;
-  position: absolute;
-  left: 270px;
-  top: 64px;
-  overflow: hidden;
-}
-.----------- {
-  color: #000000;
-  text-align: center;
-  font: 700 24px "NanumSquare Neo", sans-serif;
-  position: absolute;
-  left: 22px;
-  top: 19px;
-}
-.------ {
-  color: #000000;
-  text-align: center;
-  font: 700 24px "NanumSquare Neo", sans-serif;
-  position: absolute;
-  left: 285px;
-  top: 19px;
-}
-.-------- {
-  color: #000000;
-  text-align: center;
-  font: 700 24px "NanumSquare Neo", sans-serif;
-  position: absolute;
-  left: 500px;
-  top: 19px;
-}
-.category-top {
-  width: 690px;
-  height: 64px;
-  position: absolute;
-  left: 270px;
-  top: 0px;
-  overflow: hidden;
-}
-.----- {
-  color: #000000;
-  text-align: center;
-  font: 700 24px "NanumSquare Neo", sans-serif;
-  position: absolute;
-  left: 67px;
-  top: 19px;
-}
-.--------2 {
-  color: #0090ff;
-  text-align: center;
-  font: 700 24px "NanumSquare Neo", sans-serif;
-  position: absolute;
-  left: 270px;
-  top: 19px;
-}
+
+/* User Information */
+
 .login {
   border-style: solid;
   border-color: #c8c8c8;
   border-width: 0px 1px 0px 0px;
-  width: 270px;
-  height: 128px;
+  width: 17%;
+  height: 100%;
   position: absolute;
-  left: 0px;
-  top: 0px;
   overflow: hidden;
 }
 .name-rectangle {
   background: #4fa2e2;
   border-radius: 15px 0px 0px 15px;
-  width: 78px;
-  height: 30px;
+  width: 30%;
+  height: 23%;
   position: absolute;
-  left: 14px;
-  top: 11px;
+  left: 4.5%;
+  top: 9%;
 }
 .date-rectangle {
   background: #c1dbef;
-  border-radius: 15px 0px 0px 15px;
-  width: 162px;
-  height: 30px;
+  border-radius: 0px 15px 15px 0px;
+  width: 60%;
+  height: 23%;
   position: absolute;
-  left: 254px;
-  top: 41px;
-  transform-origin: 0 0;
-  transform: rotate(-180deg) scale(1, 1);
+  left: 34.5%;
+  top: 9%;
 }
-.--- {
+.user {
   color: #ffffff;
-  text-align: left;
+  text-align: center;
   font: 700 16px "NanumSquare Neo", sans-serif;
-  position: absolute;
-  left: 30px;
-  top: 17px;
+  position: relative;
+  top: 12%;
 }
-._2023--01--15- {
+.YDM {
   color: #000000;
-  text-align: left;
+  text-align: center;
   font: 700 16px "NanumSquare Neo", sans-serif;
-  position: absolute;
-  left: 105px;
-  top: 17px;
+  position: relative;
+  top: 12%;
 }
-.---button {
-  width: 52px;
-  height: 23px;
-  position: static;
-}
+
 .notice-rectangle {
   background: #0090ff;
   border-radius: 6px;
@@ -129,28 +66,23 @@
   top: 53px;
   box-shadow: inset 1px 4px 4px 0px rgba(255, 255, 255, 0.25);
 }
-.-- {
+.alarms {
   color: #ffffff;
-  text-align: left;
+  text-align: center;
   font: 700 15px "NanumSquare Neo", sans-serif;
-  position: absolute;
-  left: 23px;
-  top: 56px;
+  position: relative;
+  top: 10%;
 }
-.-----2 {
-  width: 121px;
-  height: 17px;
-  position: static;
-}
-.------2 {
+
+.URAlarm {
   color: #000000;
-  text-align: left;
+  text-align: center;
   font: 700 15px "NanumSquare Neo", sans-serif;
   position: absolute;
   left: 76px;
   top: 56px;
 }
-._2 {
+.reportNums1 {
   color: #ff0000;
   text-align: center;
   font: 700 15px "NanumSquare Neo", sans-serif;
@@ -176,15 +108,14 @@
   top: 88px;
   box-shadow: inset 1px 4px 4px 0px rgba(255, 255, 255, 0.25);
 }
-.--2 {
+.report {
   color: #ffffff;
-  text-align: left;
+  text-align: center;
   font: 700 15px "NanumSquare Neo", sans-serif;
-  position: absolute;
-  left: 23px;
-  top: 91px;
+  position: relative;
+  top: 10%;
 }
-.------3 {
+.URReport {
   color: #000000;
   text-align: left;
   font: 700 15px "NanumSquare Neo", sans-serif;
@@ -192,7 +123,7 @@
   left: 76px;
   top: 91px;
 }
-._1 {
+.reportNums2 {
   color: #ff0000;
   text-align: center;
   font: 700 15px "NanumSquare Neo", sans-serif;
@@ -208,6 +139,66 @@
   left: 182px;
   top: 91px;
 }
+
+/* pageing */
+
+.category-bottom {
+  width: 690px;
+  height: 64px;
+  position: absolute;
+  left: 270px;
+  top: 64px;
+  overflow: hidden;
+}
+.sngList {
+  color: #000000;
+  text-align: center;
+  font: 700 24px "NanumSquare Neo", sans-serif;
+  position: absolute;
+  left: 22px;
+  top: 19px;
+}
+.MRds {
+  color: #000000;
+  text-align: center;
+  font: 700 24px "NanumSquare Neo", sans-serif;
+  position: absolute;
+  left: 285px;
+  top: 19px;
+}
+.NCH {
+  color: #000000;
+  text-align: center;
+  font: 700 24px "NanumSquare Neo", sans-serif;
+  position: absolute;
+  left: 500px;
+  top: 19px;
+}
+.category-top {
+  width: 690px;
+  height: 64px;
+  position: absolute;
+  left: 270px;
+  top: 0px;
+  overflow: hidden;
+}
+.JInfo {
+  color: #000000;
+  text-align: center;
+  font: 700 24px "NanumSquare Neo", sans-serif;
+  position: absolute;
+  left: 67px;
+  top: 19px;
+}
+.IAMN {
+  color: #0090ff;
+  text-align: center;
+  font: 700 24px "NanumSquare Neo", sans-serif;
+  position: absolute;
+  left: 270px;
+  top: 19px;
+}
+
 .line-1 {
   position: absolute;
   left: 278px;
